@@ -58,8 +58,27 @@ void guess() {
             std::cout << "WRONG! You now have " << userStrikes << " strike(s).\n";
         }
 
-        // need more questions
-        // I will ad some stuff tomorrow
+        std::string question5;
+        std::cout << "What is the capital of Mississippi?\n";
+        std::cin >> question5;
+        if (question5 == "jackson") {
+            userPoints++;
+            std::cout << "You are correct! You now have " << userPoints << " point(s).\n";
+        } else {
+            userStrikes++;
+            std::cout << "WRONG! You now have " << userStrikes << " strike(s).\n";
+        }
+        
+        std::string question5;
+        std::cout << "What is the capital of Mississippi?\n";
+        std::cin >> question5;
+        if (question5 == "jackson") {
+            userPoints++;
+            std::cout << "You are correct! You now have " << userPoints << " point(s).\n";
+        } else {
+            userStrikes++;
+            std::cout << "WRONG! You now have " << userStrikes << " strike(s).\n";
+        }
         
 
 
