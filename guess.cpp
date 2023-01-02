@@ -69,15 +69,15 @@ void guess() {
             std::cout << "WRONG! You now have " << userStrikes << " strike(s).\n";
         }
         
-        std::string question5;
-        std::cout << "What is the capital of Mississippi?\n";
-        std::cin >> question5;
-        if (question5 == "jackson") {
+        std::string question6;
+        std::cout << "What is the capital of Wyoming?\n";
+        std::cin >> question6;
+        if (question6 == "cheyenne") {
             userPoints++;
             std::cout << "You are correct! You now have " << userPoints << " point(s).\n";
         } else {
             userStrikes++;
-            std::cout << "WRONG! You now have " << userStrikes << " strike(s).\n";
+            std::cout << "Maybe next time! You now have " << userStrikes << " strike(s).\n";
         }
         
 
